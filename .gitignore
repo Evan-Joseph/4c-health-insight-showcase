@@ -1,0 +1,39 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local secrets and environment state
+.env
+.env.*
+!.env.example
+环境配置/.env.local
+环境配置/.env.local.*
+!环境配置/.env.local.example
+
+# Data and generated artifacts
+比赛数据集/官方基础数据_20260322/
+比赛数据集/外部数据/
+比赛数据集/*.tar.gz
+分析输出/
+
+# Local reference assets that do not need remote tracking
+相关文档/*.mp4
+相关文档/4C大数据主题赛_优秀作品/
+
+# Private competition notes and personal materials
+协作记录/
+相关文档/
+赛题了解与规划_*.md
+*推荐信*
+*签字*
+*合照*
+*身份证*
+*手机号*
+*个人信息*
+
+# Conda and editor noise
+.conda/
+.idea/
+.vscode/

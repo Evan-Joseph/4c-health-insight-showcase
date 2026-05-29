@@ -1,0 +1,22 @@
+name: 4c-health
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - duckdb
+  - polars
+  - pandas
+  - pyarrow
+  - numpy
+  - scipy
+  - statsmodels
+  - linearmodels
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - openpyxl
+  - country_converter
+  - requests
+  - jupyterlab
+  - pip
